@@ -19,6 +19,7 @@ organized? How would branches help?
 I think they will be specially useful for new features that might involve many changes and that might not end up staying. And in any ocassion in which the software is going to be distributed, having a stable version and development versions can be fundamental.
 
 How do the diagrams help you visualize the branch structure?
+By showing the commits as nodes of a tree and how they map and connect to each other, which makes easier to understand where do you are in the structure, which can became pretty complicated and non-linear.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
