@@ -27,3 +27,5 @@ You get the changes coming from both branches, including all their previous comm
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+The pros are that very often changes will not be in the same lines of the code because collaborators will be working on different aspects. It makes easier to include new things. But sometimes things will not show as a conflict as a consequence of the mechanism git has, so you really need to be careful with the diffs and know what you are doing.
