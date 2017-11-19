@@ -23,6 +23,7 @@ By showing the commits as nodes of a tree and how they map and connect to each o
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+You get the changes coming from both branches, including all their previous commits until the heads of the branches. We represent them as an union because they have like 'two parents'.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
