@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keepinf all your work local?
+
+When the code is part of a project in which other people collaborate, or when your programming happens in more than one location and you need to be able to both push and pull. Plus in the case of github or any other server it serves also as a backup and a nice interface to the version control features.
