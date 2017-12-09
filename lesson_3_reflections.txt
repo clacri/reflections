@@ -17,4 +17,11 @@ Finally, branches are defined within a particular repository and are a tool to k
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-It allows you to work offline and to keep track of commits and relations between branches, that can be updated once pulling/pushing. 
+It allows you to work offline and to keep track of commits and relations between branches, that can be updated once pulling/pushing.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+It would be extremelly complicated. I guess we could set up meetings in which we manually merge the results of our changes in the code, and possibly we will need to have a log of who is changing
+what in which moments, as otherwhise conflicts will happen very often. Guess the harder thing would be the merging, but I really do not see what it would be easier. Maybe it is difficult to get
+used and understand how the merging will work given two files, but with some experience and after really understanding how git works is quite straightforward.
+
