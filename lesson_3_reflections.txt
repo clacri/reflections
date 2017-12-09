@@ -6,4 +6,15 @@ Plus in the case of github or any other server it serves also as a backup and a 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-Because Github is public, and often a large change such as an addition of a new feature, might involve several commits of logical, small changes, and you do not want to overflow Github with all that small changes.
+Because Github is public, and often a large change such as an addition of a new feature,
+ might involve several commits of logical, small changes, and you do not want to overflow Github with all that small changes.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are copies of github repositories that keep a reference to the original one but that are completely independent. Clones, instead, are exact copies of a repository.
+Finally, branches are defined within a particular repository and are a tool to keep separated versions of the code until things are ready to merge.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows you to work offline and to keep track of commits and relations between branches, that can be updated once pulling/pushing. 
