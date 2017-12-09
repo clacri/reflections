@@ -25,3 +25,10 @@ It would be extremelly complicated. I guess we could set up meetings in which we
 what in which moments, as otherwhise conflicts will happen very often. Guess the harder thing would be the merging, but I really do not see what it would be easier. Maybe it is difficult to get
 used and understand how the merging will work given two files, but with some experience and after really understanding how git works is quite straightforward.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I think that if the code is shared with other collaborators and users,
+there should always be development branches and master should be kept as a kind
+of stable version. However, even for the development branches, if a major
+new feature or change is going to be implemented, a new branch should be created
+so that it can be tested and developed without causing any problem to the stable ones.
